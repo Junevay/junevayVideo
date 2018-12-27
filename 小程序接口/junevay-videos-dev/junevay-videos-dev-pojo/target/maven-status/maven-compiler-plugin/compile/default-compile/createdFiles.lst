@@ -1,0 +1,12 @@
+com\junevay\pojo\Comments.class
+com\junevay\pojo\vo\UsersVO.class
+com\junevay\pojo\vo\VideosVO.class
+com\junevay\pojo\UsersReport.class
+com\junevay\pojo\UsersFans.class
+com\junevay\pojo\vo\CommentsVO.class
+com\junevay\pojo\vo\PublisherVideo.class
+com\junevay\pojo\Bgm.class
+com\junevay\pojo\SearchRecords.class
+com\junevay\pojo\Users.class
+com\junevay\pojo\UsersLikeVideos.class
+com\junevay\pojo\Videos.class

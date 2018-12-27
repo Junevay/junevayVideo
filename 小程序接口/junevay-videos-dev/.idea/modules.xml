@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/junevay-videos-dev.iml" filepath="$PROJECT_DIR$/junevay-videos-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junevay-videos-dev-common/junevay-videos-dev-common.iml" filepath="$PROJECT_DIR$/junevay-videos-dev-common/junevay-videos-dev-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junevay-videos-dev-mapper/junevay-videos-dev-mapper.iml" filepath="$PROJECT_DIR$/junevay-videos-dev-mapper/junevay-videos-dev-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junevay-videos-dev-mini-api/junevay-videos-dev-mini-api.iml" filepath="$PROJECT_DIR$/junevay-videos-dev-mini-api/junevay-videos-dev-mini-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junevay-videos-dev-pojo/junevay-videos-dev-pojo.iml" filepath="$PROJECT_DIR$/junevay-videos-dev-pojo/junevay-videos-dev-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junevay-videos-dev-service/junevay-videos-dev-service.iml" filepath="$PROJECT_DIR$/junevay-videos-dev-service/junevay-videos-dev-service.iml" />
+    </modules>
+  </component>
+</project>
