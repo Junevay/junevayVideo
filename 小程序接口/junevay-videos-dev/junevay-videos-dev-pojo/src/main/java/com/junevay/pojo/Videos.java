@@ -25,6 +25,7 @@ public class Videos {
     @Column(name = "video_desc")
     private String videoDesc;
 
+
     /**
      * 视频存放的路径
      */
@@ -293,4 +294,6 @@ public class Videos {
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
+
+
 }

@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+      "pages/userLogin/login",
+      "pages/userRegist/regist",
+      "pages/chooseBgm/chooseBgm",
+      "pages/videoinfo/videoinfo",
+      "pages/searchVideo/searchVideo",
+      "pages/mine/mine" ,
+      "pages/report/report"
+       
+   
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "junevayVideo",
+    "navigationBarTextStyle":"black"
+  }
+}

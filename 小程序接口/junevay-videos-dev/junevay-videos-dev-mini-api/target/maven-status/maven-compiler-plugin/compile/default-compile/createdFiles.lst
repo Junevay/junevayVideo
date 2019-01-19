@@ -1,2 +1,4 @@
 com\junevay\controller\RegistLoginController.class
 com\junevay\Application.class
+com\junevay\controller\VideoController.class
+com\junevay\controller\BasicController.class

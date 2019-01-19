@@ -12,11 +12,11 @@ import static org.n3r.idworker.utils.Serializes.closeQuietly;
 public class Props {
     static Logger log = LoggerFactory.getLogger(Props.class);
 
-    public static Properties tryProperties(String propertiesFileName, String userHomeBasePath) {
+    public static Properties tryProperties(String propertiesfileName, String userHomeBasePath) {
         Properties properties = new Properties();
         InputStream is = null;
         try {
-            is = Props.tryResource(propertiesFileName, userHomeBasePath, Silent.ON);
+            is = Props.tryResource(propertiesfileName, userHomeBasePath, Silent.ON);
             if (is != null) properties.load(is);
         } catch (IOException e) {
             log.error("load properties error: {}", e.getMessage());
@@ -30,17 +30,17 @@ public class Props {
 
     enum Silent {ON, OFF}
 
-    public static InputStream tryResource(String propertiesFileName, String userHomeBasePath, Silent silent) {
-        InputStream is = currentDirResource(new File(propertiesFileName));
+    public static InputStream tryResource(String propertiesfileName, String userHomeBasePath, Silent silent) {
+        InputStream is = currentDirResource(new File(propertiesfileName));
         if (is != null) return is;
 
-        is = userHomeResource(propertiesFileName, userHomeBasePath);
+        is = userHomeResource(propertiesfileName, userHomeBasePath);
         if (is != null) return is;
 
-        is = classpathResource(propertiesFileName);
+        is = classpathResource(propertiesfileName);
         if (is != null || silent == Silent.ON) return is;
 
-        throw new RuntimeException("fail to find " + propertiesFileName + " in current dir or classpath");
+        throw new RuntimeException("fail to find " + propertiesfileName + " in current dir or classpath");
     }
 
     private static InputStream userHomeResource(String pathname, String appHome) {

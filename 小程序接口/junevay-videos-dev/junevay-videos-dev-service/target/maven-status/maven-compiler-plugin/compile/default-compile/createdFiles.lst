@@ -1,2 +1,5 @@
 com\junevay\service\Impl\UserServiceImpl.class
 com\junevay\service\UserService.class
+com\junevay\service\Impl\BgmServiceImpl.class
+com\junevay\service\CommentService.class
+com\junevay\service\Impl\CommentServiceImpl.class

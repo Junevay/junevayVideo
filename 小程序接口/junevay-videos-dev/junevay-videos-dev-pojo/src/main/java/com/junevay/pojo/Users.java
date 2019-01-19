@@ -1,11 +1,13 @@
 package com.junevay.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 
 
 public class Users {
-    
+
 
 	@Id
     private String id;
@@ -19,6 +21,7 @@ public class Users {
     /**
      * 密码
      */
+
 
     private String password;
 
